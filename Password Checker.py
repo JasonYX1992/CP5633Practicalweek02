@@ -50,7 +50,6 @@ def is_valid_password(password):
             count_special += 1
     pass
 
-
     # TODO: if any of the 'normal' counts are zero, return False
     if count_digit <= 0:
 
