@@ -8,6 +8,3 @@ while not finished:
         print('Please enter a valid integer.')
 print('valid result is', result)
 
-""" """
-def get_number(lower, upper):
-    if

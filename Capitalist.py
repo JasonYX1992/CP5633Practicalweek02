@@ -33,5 +33,5 @@ while price >= MIN_PRICE and price <= MAX_PRICE:
         priceChange = random.uniform(-MAX_DECREASE, 0)
 
     price *= (1 + priceChange)
-    print("On day " + str(num) + "price is " + "${:,.2f}".format(price))
+    print("On day " + str(num) + " price is " + "${:,.2f}".format(price))
     num += 1
