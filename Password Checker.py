@@ -27,7 +27,7 @@ def main():
 def is_valid_password(password):
     # TODO: if length is wrong, return False
 
-    if len(password) < MIN_LENGTH and len(password) > MAX_LENGTH:
+    if len(password) < MIN_LENGTH or len(password) > MAX_LENGTH:
         print("You length not enough!!")
         return False
 
